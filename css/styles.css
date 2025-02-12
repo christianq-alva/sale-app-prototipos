@@ -1,0 +1,83 @@
+/* Variables globales */
+:root {
+   --primary-color: #0d6efd;
+   --light-gray: #f8f9fa;
+   --border-radius: 0.375rem;
+}
+
+/* Estilos generales */
+body {
+   background-color: var(--light-gray);
+}
+
+/* Estilos para las cards */
+.card {
+   border: none;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+   margin-bottom: 1.5rem;
+}
+
+.card-header {
+   background-color: white;
+   border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+
+/* Estilos para los items de las listas */
+.list-group-item {
+   border-left: none;
+   border-right: none;
+   border-radius: 0 !important;
+   transition: background-color 0.2s ease;
+}
+
+.list-group-item:hover {
+   background-color: var(--light-gray);
+}
+
+.list-group-item:first-child {
+   border-top: none;
+}
+
+.list-group-item:last-child {
+   border-bottom: none;
+}
+
+/* Estilos para los botones de actualización de stock */
+.btn-group .btn {
+   padding: 0.25rem 0.5rem;
+   font-size: 0.875rem;
+}
+
+/* Estilos para los badges */
+.badge {
+   font-weight: normal;
+   padding: 0.5em 0.75em;
+}
+
+/* Ajustes para el acordeón dentro de list items */
+.list-group-item .accordion {
+   width: 100%;
+}
+
+/* Espacio para el formulario de edición */
+.list-group-item .collapse {
+   border-top: 1px solid rgba(0,0,0,0.125);
+   padding-top: 1rem;
+}
+
+/* Ajuste del gap en formulario */
+.list-group-item form {
+   gap: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+   .card {
+       margin-bottom: 1rem;
+   }
+   
+   .tab-content {
+       padding: 1rem 0;
+   }
+}
+

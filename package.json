@@ -1,0 +1,15 @@
+{
+  "name": "salespos-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "flatrepo": "^1.0.6",
+    "vite": "^6.0.1"
+  }
+}
